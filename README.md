@@ -6,7 +6,7 @@ Patch from https://patchwork.kernel.org/patch/10181903/ which has yet to be incl
 ## Ubuntu 16.04 LTS example:
 ### Download the latest full kernel release version ...example here is 4.17
 ```
-curl -O https://github.com/torvalds/linux/archive/v4.17.zip
+wget https://github.com/torvalds/linux/archive/v4.17.zip
 unzip v4.17.zip
 ```
 ### Clone this repo and patch
