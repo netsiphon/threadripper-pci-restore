@@ -18,7 +18,7 @@ patch -d ../linux-4.17 -p0 < threadripper-kernel-pci-restore.patch
 All hunks must succeed to proceed. If they don't look for the failed hunk and manually correct it if you can.
 
 ### Replace configuration with your OS kernel configuration from /boot
-Please note that the make-custom-kernel script is set to generate 32 threads for the 1950x. Choose the appropriate number for an alternate model.
+_Please note that the make-custom-kernel script is set to generate 32 threads for the 1950x. Choose the appropriate number for an alternate model._
 ```
 ./make-custom-kernel ../linux-4.17 config-4.4.0-128-generic
 ```
