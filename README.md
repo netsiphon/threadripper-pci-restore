@@ -13,7 +13,7 @@ unzip v4.17.zip
 ```
 git clone https://github.com/netsiphon/threadripper-pci-restore.git
 cd threadripper-pci-restore/
-patch -d ../linux-4.17 -p0 -i threadripper-kernel-pci-reset.patch
+patch -d ../linux-4.17 -p0 < threadripper-kernel-pci-restore.patch 
 ```
 All hunks must succeed to proceed. If they don't look for the failed hunk and manually correct it if you can.
 
