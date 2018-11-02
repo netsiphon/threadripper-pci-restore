@@ -1,6 +1,6 @@
 # Threadripper PCI Restore
 
-Restore PCI state on Threadripper x399 platform is no longer required. Please feel free to use the script to compile your kernel and install packages if necessary but due to changes in X399 BIOS for PCI Reset option (BIOS option added at least to Asrock X399 Taichi v3.30) and changes introduced in 4.19 for pci_restore_config_dword with optional reset, the previous patch should no longer be necessary.
+Restore PCI state on Threadripper x399 platform is no longer required. Please feel free to use the script to compile your kernel and install packages if necessary but due to changes in X399 BIOS for PCI Reset option (BIOS option added at least to Asrock X399 Taichi v3.30) and changes introduced in 4.19 for pci_restore_config_dword with boolean force option, the previous patch should no longer be necessary.
 
 ## Ubuntu 18.04 LTS example:
 ### Download the latest full kernel release version ...example here is 4.19
